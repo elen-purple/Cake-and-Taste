@@ -32,10 +32,10 @@
         <a class="navbar-brand" href="./index.html">Cake and Taste</a>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Benefits</a>
+            <a class="nav-link" href="#benefits">Benefits</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Categories</a>
@@ -52,7 +52,7 @@
         </ul>
       </div>
     </header>
-    <section class="hero">
+    <section class="hero" id="home">
       <div class="container">
         <h1 class="hero-title">Your drem cake</h1>
         <p class="hero-desc">
@@ -73,6 +73,96 @@
       <div class="gradient"></div>
       <img src="./imgs/header-img.webp" alt="Cupcakes" class="header-img" />
     </div>
+    <section class="benefits" id="benefits">
+      <div class="container">
+        <h2 class="benefits-title">Why us</h2>
+        <ul class="list-group list-group-horizontal benefits-list">
+          <li class="list-group-item benefits-item">
+            <div class="benefits-wrap">
+              <svg class="benefits-icon" width="48" height="48">
+                <use href="./svg/icons.svg#shield"></use>
+              </svg>
+            </div>
+            <h3 class="benefits-subtitle">Convenience</h3>
+            <p class="benefits-desc">
+              Enjoy the ease of ordering freshly baked goods from the comfort of
+              your home or on the go.
+            </p>
+          </li>
+          <li class="list-group-item benefits-item">
+            <div class="benefits-wrap">
+              <svg class="benefits-icon" width="48" height="48">
+                <use href="./svg/icons.svg#category"></use>
+              </svg>
+            </div>
+            <h3 class="benefits-subtitle">Variety</h3>
+            <p class="benefits-desc">
+              Explore a wide selection of artisanal breads, pastries, cakes, and
+              other delectable treats.
+            </p>
+          </li>
+          <li class="list-group-item benefits-item">
+            <div class="benefits-wrap">
+              <svg class="benefits-icon" width="48" height="48">
+                <use href="./svg/icons.svg#filter"></use>
+              </svg>
+            </div>
+            <h3 class="benefits-subtitle">Customization</h3>
+            <p class="benefits-desc">
+              Personalize your orders to suit your taste preferences, dietary
+              restrictions, or occasions.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-about">
+          <a href="./index.html" class="footer-logo">Cake and Taste</a>
+          <p class="footer-desc">
+            Welcome to our online bakery! Indulge in freshly baked goods
+            delivered straight to your door.
+          </p>
+          <button class="footer-button">Learn more</button>
+        </div>
+        <ul class="footer-list">
+          <li class="footer-item">
+            <a href="#home" class="footer-link">Home</a>
+          </li>
+          <li class="footer-item">
+            <a href="#benefits" class="footer-link">Benefits</a>
+          </li>
+          <li class="footer-item">
+            <a href="#" class="footer-link">Categories</a>
+          </li>
+          <li class="footer-item">
+            <a href="#" class="footer-link">Reviews</a>
+          </li>
+          <li class="footer-item">
+            <a href="#" class="footer-link">Location</a>
+          </li>
+          <li class="footer-item">
+            <a href="#" class="footer-link">Contact</a>
+          </li>
+        </ul>
+        <div class="footer-wrapper">
+          <ul class="footer-list">
+            <li class="footer-item">
+              <a href="mailto: cake.and.taste@gmail.com" class="footer-link"
+                >cake.and.taste@gmail.com</a
+              >
+            </li>
+            <li class="footer-item">
+              <a href="tel: 0435478532" class="footer-link">043 547 8532</a>
+            </li>
+          </ul>
+          <p class="footer-copyright">
+            Copyright from 2024 | Designed by elen-purple
+          </p>
+        </div>
+      </div>
+    </footer>
     <div
       class="modal fade"
       id="exampleModal"
