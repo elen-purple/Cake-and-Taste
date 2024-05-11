@@ -1,0 +1,152 @@
+:root {
+  --bg-color: #e3e3dc;
+  --accent: #e8c6bf;
+  --hover: #f19f92;
+  --focus: #d28174;
+  --text-color: #4b3423;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+* {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-color) !important;
+  box-shadow: none;
+  outline: none;
+}
+
+.nav-link:focus-visible {
+  box-shadow: none;
+}
+
+.container {
+  outline: red dashed 3px;
+  max-width: 1272px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+*::selection {
+  background-color: var(--hover);
+  color: var(--text-color);
+}
+
+.header-hero-bg {
+}
+
+.header {
+  padding-top: 48px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 273px; */
+}
+
+.navbar-brand {
+  font-size: 36px;
+  color: var(--text-color);
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav-link {
+  font-size: 28px;
+  padding: 0;
+}
+
+.nav-link:hover {
+  color: var(--focus);
+}
+
+.nav-link:focus {
+  text-decoration-line: underline;
+}
+
+.background {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  width: 683px;
+  height: 1024px;
+}
+
+.gradient {
+  width: 173px;
+  height: 1024px;
+  position: absolute;
+  right: 562px;
+  top: 0;
+  background: linear-gradient(
+    270deg,
+    rgba(227, 227, 219, 0) 0%,
+    #e3e3db 46.55%,
+    #e3e3db 100%
+  );
+}
+
+.header-img {
+  width: 683px;
+  height: 1024px;
+}
+
+.header-img::selection {
+  background-color: transparent;
+}
+
+.hero {
+  padding-top: 304px;
+  padding-bottom: 325px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+p,
+button {
+  font-size: 32px !important;
+}
+
+button {
+  border: none !important;
+  border-radius: 63px !important;
+  padding: 16px 64px !important;
+}
+
+button:hover {
+  background-color: var(--hover) !important;
+}
+button:focus {
+  background-color: var(--focus) !important;
+}
+
+.hero-desc {
+  width: 649px;
+  margin-top: 12px;
+  margin-bottom: 36px;
+}
+
+.hero-button {
+  background: var(--accent);
+}
