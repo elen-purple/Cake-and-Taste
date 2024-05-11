@@ -25,7 +25,6 @@ body {
 }
 
 .container {
-  outline: red dashed 3px;
   max-width: 1272px;
   padding: 0 16px !important;
   margin: 0 auto !important;
