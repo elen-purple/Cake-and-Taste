@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   font-style: normal;
   color: var(--text-color) !important;
+  line-height: 1.17 !important;
   box-shadow: none;
   outline: none;
 }
@@ -26,8 +27,8 @@ body {
 .container {
   outline: red dashed 3px;
   max-width: 1272px;
-  padding: 0 16px;
-  margin: 0 auto;
+  padding: 0 16px !important;
+  margin: 0 auto !important;
 }
 
 *::selection {
@@ -39,7 +40,7 @@ body {
 }
 
 .header {
-  padding-top: 48px;
+  padding-top: 48px !important;
 }
 
 .header .container {
@@ -67,11 +68,12 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--focus);
+  color: var(--focus) !important;
 }
 
 .nav-link:focus {
   text-decoration-line: underline;
+  color: var(--text-color) !important;
 }
 
 .background {
@@ -107,8 +109,8 @@ body {
 }
 
 .hero {
-  padding-top: 304px;
-  padding-bottom: 325px;
+  padding-top: 304px !important;
+  padding-bottom: 325px !important;
 }
 
 h1 {
@@ -143,10 +145,109 @@ button:focus {
 
 .hero-desc {
   width: 649px;
-  margin-top: 12px;
-  margin-bottom: 36px;
+  margin-top: 12px !important;
+  margin-bottom: 36px !important;
 }
 
 .hero-button {
   background: var(--accent);
+}
+
+.benefits {
+  padding-top: 120px !important;
+  padding-bottom: 60px !important;
+}
+
+.benefits-list {
+  margin-top: 60px !important;
+  gap: 20px;
+  border-radius: none !important;
+}
+
+.benefits-item {
+  padding: 94px 24px 24px !important;
+  border-radius: 20px !important;
+  background-color: var(--accent);
+  position: relative;
+}
+
+.benefits-wrap {
+  padding: 26px !important;
+  background-color: var(--hover);
+  width: min-content;
+  border-radius: 20px;
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.benefits-icon {
+  fill: none;
+  stroke: var(--text-color);
+}
+
+.benefits-subtitle {
+  text-align: center;
+  margin-bottom: 16px !important;
+}
+
+.benefits-desc {
+  text-align: center;
+}
+
+.footer {
+  padding: 40px 0 !important;
+  background-color: var(--accent);
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-about {
+  width: 400px;
+}
+
+.footer-logo {
+  display: block;
+  font-size: 36px;
+  margin-bottom: 16px !important;
+}
+
+.footer-button {
+  background: var(--bg-color);
+  margin-top: 24px !important;
+}
+
+.footer p {
+  font-size: 28px !important;
+}
+
+.footer-list {
+  width: 190px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-link {
+  font-size: 28px;
+}
+
+.footer-link:hover {
+  color: var(--focus) !important;
+}
+
+.footer-link:focus {
+  text-decoration-line: underline;
+  color: var(--text-color) !important;
+}
+
+.footer-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
