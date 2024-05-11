@@ -196,6 +196,67 @@ button:focus {
   text-align: center;
 }
 
+.reviews {
+  padding: 60px 0 !important;
+}
+
+.carousel-inner {
+  height: 432px;
+  overflow: hidden;
+}
+
+.reviews-person {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px !important;
+}
+
+.reviews-title {
+  margin-bottom: 60px !important;
+}
+
+.reviews-subtitle {
+  margin-left: 12px !important;
+}
+
+.reviews-item {
+  background-color: var(--accent);
+  border-radius: 20px;
+  width: 820px;
+  height: 432px;
+  margin: 0 auto !important;
+  padding: 40px 60px !important;
+}
+
+.reviews-img {
+  width: 100px;
+  height: 100px;
+}
+
+.reviews-stars {
+  display: flex;
+  gap: 10px;
+  margin-left: auto !important;
+}
+
+.reviews-icon {
+  fill: var(--hover);
+}
+
+.reviews-button:hover,
+.reviews-button:focus {
+  background-color: transparent !important;
+}
+
+.reviews-arrow {
+  fill: none;
+  stroke: var(--text-color);
+}
+
+.reviews-arrow.next {
+  transform: rotate(180deg);
+}
+
 .footer {
   padding: 40px 0 !important;
   background-color: var(--accent);
